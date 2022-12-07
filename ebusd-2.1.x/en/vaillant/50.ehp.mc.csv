@@ -47,6 +47,9 @@ r;wi,,FloorPavingDryingDay,FloorPavingDryingDay,,,,"3B00",,,UCH,,,BMR: actual da
 [SW>=407]r;wi,,Hc1PumpSpeedControlHeatBuffer,CH1P_PumpSpeedControlHeatBuffer,,,,"BF01",,,percent0,,,CH pump speed setpoint while buffer is loaded [%]
 [SW>=407]r;wi,,Hc1PumpSpeedControlDirectCircuit,CH1P_PumpSpeedControlDirectCircuit,,,,"C001",,,percent0,,,CH pump speed setpoint while energybalancing and compressor=on [%]
 [SW>=414]r;wi,,Hc1PumpSpeedControlDirectCircuitWhileO,CH1P_PumpSpeedControlDirectCircuitWhileOff,,,,"E101",,,percent0,,,CH pump speed setpoint while energybalancing and compressor=off
+*r,,,,,,"B504",,,,,,,
+*w,,,,,,"B505","09",,,,,,
+r,,Timer.Monday,Periods Monday,,,,02,,,timer,,,
 !include,mcmode.inc,,,,,,,,,,,,
 !include,timer.inc,,,,,,,,,,,,
 !include,iotesthp.inc,,,,,,,,,,,,
