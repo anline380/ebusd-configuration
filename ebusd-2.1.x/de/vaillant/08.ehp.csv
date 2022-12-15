@@ -48,7 +48,7 @@ r;u,,CompPressHigh,Hochdruck Kältekr,,,,"1400",,,presssensor,,,Hochdruck Kälte
 r;u,,CompPressLow,Niederdr. Kältekr.,,,,"1500",,,presssensor,,,Niederdruck Kältekr.: Anzeige Kältemitteldruck Kompressoreingang.
 r,,Superheat,Überhitzung,,,,"8D00",,,temp,,,Überhitzung des Kältemittels berechnet aus T2 und Niederdrucksensor
 r,,Subcooling,Unterkühlung,,,,"8E00",,,temp,,,Unterkühlung des Kältemittels berechnet aus T4 und Hochdrucksensor
-r,,Integral,Energie-Integral,,,,"8000",,,integral,,,Das Energie-Integral ist die aufsummierte Differenz zwischen Vorlauftemperatur IST und Vorlauftemperatur SOLL pro Minute. Bei einem bestimmten Wärmedefizit startet die Wärmepumpe.
+r1,,Integral,Energie-Integral,,,,"8000",,,integral,,,Das Energie-Integral ist die aufsummierte Differenz zwischen Vorlauftemperatur IST und Vorlauftemperatur SOLL pro Minute. Bei einem bestimmten Wärmedefizit startet die Wärmepumpe.
 r;u,,TempInput,Kompressor Eintritt,,,,"0200",,,tempsensor,,,Anzeige Temperaturfühler T1. Kompressoreinlasstemperatur
 r;u,,TempOutput,Kompressor Austritt,,,,"0400",,,tempsensor,,,Anzeige Temperaturfühler T2. Kompressorauslasstemperatur
 [brinetowater]r;u,,CondensorTemp,TEV-Eintritt,,,,"0D00",,,tempsensor,,,TEV-Eintritt: Temperatur am Eintritt des thermischen Expansionsventils
